@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;900&display=swap" rel="stylesheet">
+
+  <title>Starbucks</title>
+</head>
+
+<body>
+
+  <div class="circulo"></div>
+
+  <div class="container">
+    <img src="./images/logo.png" class="logo" alt="logo">
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#galery">Our Coffee</a>
+      <a href="#review">Customer Service</a>
+      <a href="#address">Address</a>
+    </nav>
+  </div>
+
+  <div class="conteudo">
+
+    <div class="caixa-texto">
+      <h2>It's not just Coffee <br> It's <span>Starbucks</span></h2>
+      <p>Behind every cup of coffee is a story. Enjoy some of our favorites along with all the latest news from the
+        storytellers at Starbucks Stories.</p>
+      <a href="https://www.starbucks.com/" target="_blank">Learn More</a>
+    </div>
+
+    <div class="caixa-imagem">
+      <img src="./images/img1.png" class="starbucks" alt="" srcset="">
+    </div>
+
+  </div>
+
+  <div class="menu">
+    <img src="./images/img-pequena1.png" class="botao-menu"
+      onclick="trocaImagem('./images/img1.png'); trocaCor('#017143')">
+    <img src="./images/img-pequena2.png" class="botao-menu"
+      onclick="trocaImagem('./images/img2.png'); trocaCor('#eb7495')">
+    <img src=" ./images/img-pequena3.png" class="botao-menu"
+      onclick="trocaImagem('./images/img3.png'); trocaCor('#d752b1')">
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
